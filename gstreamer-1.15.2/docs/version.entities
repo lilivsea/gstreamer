@@ -1,0 +1,3 @@
+<!ENTITY GST_API_VERSION "1.0">
+<!ENTITY GST_VERSION "1.15.2">
+<!ENTITY GST_PLUGINS_DIR "/home/webrtc/Downloads/gstreamer-1.15/build/lib/gstreamer-1.0">

@@ -1,0 +1,18 @@
+prefix=
+exec_prefix=
+libdir=@gllibdir@
+includedir=/home/webrtc/Downloads/gstreamer-1.15/gst-plugins-base-1.15.2/gst-libs
+girdir=/home/webrtc/Downloads/gstreamer-1.15/gst-plugins-base-1.15.2/gst-libs/gst/base
+typelibdir=/home/webrtc/Downloads/gstreamer-1.15/gst-plugins-base-1.15.2/gst-libs/gst/base
+gl_platforms=glx egl 
+gl_winsys=x11 
+gl_apis=gles2 gl 
+
+Name: GStreamer OpenGL Plugins Libraries, Uninstalled
+Description: Streaming media framework, OpenGL plugins libraries, uninstalled
+Version: 1.15.2
+Requires: gstreamer-video-1.0 gstreamer-base-1.0 gstreamer-1.0
+
+Libs: -L${libdir} -lgstgl-1.0
+Cflags: -I/home/webrtc/Downloads/gstreamer-1.15/gst-plugins-base-1.15.2/gst-libs -I/home/webrtc/Downloads/gstreamer-1.15/gst-plugins-base-1.15.2/gst-libs   -I/usr/include/libdrm
+

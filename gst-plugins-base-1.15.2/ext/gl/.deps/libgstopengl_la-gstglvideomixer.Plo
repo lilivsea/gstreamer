@@ -1,0 +1,933 @@
+libgstopengl_la-gstglvideomixer.lo: gstglvideomixer.c \
+ /usr/include/stdc-predef.h ../../config.h /usr/include/string.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h /usr/include/xlocale.h \
+ /usr/include/x86_64-linux-gnu/bits/string.h \
+ /usr/include/x86_64-linux-gnu/bits/string2.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/string3.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/controller/gstproxycontrolbinding.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gst.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/galloca.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gtypes.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/lib/glib-2.0/include/glibconfig.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gmacros.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/float.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gversionmacros.h \
+ /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/garray.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gasyncqueue.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gthread.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gatomic.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gerror.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gquark.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gutils.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gbacktrace.h \
+ /usr/include/signal.h /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/bits/signum.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo.h \
+ /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+ /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+ /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gbase64.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gbitlock.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gbookmarkfile.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gbytes.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gcharset.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gchecksum.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gconvert.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gdataset.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gdate.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gdatetime.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gtimezone.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gdir.h \
+ /usr/include/dirent.h /usr/include/x86_64-linux-gnu/bits/dirent.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/genviron.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gfileutils.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/ggettext.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/ghash.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/glist.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gmem.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gnode.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/ghmac.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gchecksum.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/ghook.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/ghostutils.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/giochannel.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gmain.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gpoll.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gslist.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gstring.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gunicode.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gkeyfile.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gmappedfile.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gmarkup.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gmessages.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/goption.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gpattern.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gprimes.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gqsort.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gqueue.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/grand.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gregex.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gscanner.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gsequence.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gshell.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gslice.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gspawn.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gstrfuncs.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gstringchunk.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gtestutils.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gthreadpool.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gtimer.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gtrashstack.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gtree.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gurifuncs.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gvarianttype.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gvariant.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gversion.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/glib-autocleanups.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/glib-compat.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstenumtypes.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib-object.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gbinding.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gobject.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gtype.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gvalue.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gparam.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gclosure.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gsignal.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gmarshal.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gboxed.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/glib-types.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/genums.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gparamspecs.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gsourceclosure.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gtypemodule.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gtypeplugin.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gvaluearray.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gvaluetypes.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gobject-autocleanups.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstconfig.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstversion.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstatomicqueue.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstbin.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstelement.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstobject.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstcontrolbinding.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstcontrolsource.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstclock.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstpad.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstbuffer.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstminiobject.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstallocator.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstmemory.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstcaps.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gststructure.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstdatetime.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstcapsfeatures.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstmeta.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstbufferlist.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstpadtemplate.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstevent.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstformat.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstiterator.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsttaglist.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstsample.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstsegment.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstmessage.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstquery.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsttoc.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstcontext.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstdevice.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gststreams.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gststreamcollection.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsttask.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsttaskpool.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstbus.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstelementfactory.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstplugin.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstmacros.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstpluginfeature.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsturi.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstminiobject.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstbufferpool.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstchildproxy.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstdebugutils.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstdevicemonitor.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstdeviceprovider.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstdeviceproviderfactory.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstdynamictypefactory.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstelementmetadata.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsterror.h \
+ /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstghostpad.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstinfo.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstparamspecs.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstvalue.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstpipeline.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstpoll.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstpreset.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstprotection.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstregistry.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstpromise.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstsystemclock.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsttagsetter.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsttocsetter.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsttracer.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsttracerfactory.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsttracerrecord.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsttypefind.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsttypefindfactory.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstutils.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstparse.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstcompat.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/controller/controller-prelude.h \
+ ../../gst-libs/gst/gl/gstglfuncs.h ../../gst-libs/gst/gl/gstglconfig.h \
+ /usr/include/GLES3/gl3.h /usr/include/GLES3/gl3platform.h \
+ /usr/include/KHR/khrplatform.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/GLES3/gl3ext.h \
+ /usr/include/GLES2/gl2ext.h /usr/include/GL/gl.h /usr/include/GL/glext.h \
+ /usr/include/inttypes.h \
+ ../../gst-libs/gst/gl/glprototypes/gstgl_compat.h \
+ ../../gst-libs/gst/gl/glprototypes/all_functions.h \
+ ../../gst-libs/gst/gl/glprototypes/base.h \
+ ../../gst-libs/gst/gl/glprototypes/blending.h \
+ ../../gst-libs/gst/gl/glprototypes/eglimage.h \
+ ../../gst-libs/gst/gl/glprototypes/fbo.h \
+ ../../gst-libs/gst/gl/glprototypes/fixedfunction.h \
+ ../../gst-libs/gst/gl/glprototypes/gles.h \
+ ../../gst-libs/gst/gl/glprototypes/opengl.h \
+ ../../gst-libs/gst/gl/glprototypes/shaders.h \
+ ../../gst-libs/gst/gl/glprototypes/debug.h \
+ ../../gst-libs/gst/gl/glprototypes/vao.h \
+ ../../gst-libs/gst/gl/glprototypes/sync.h \
+ ../../gst-libs/gst/gl/glprototypes/buffers.h \
+ ../../gst-libs/gst/gl/glprototypes/query.h \
+ ../../gst-libs/gst/video/gstvideoaffinetransformationmeta.h \
+ ../../gst-libs/gst/video/video.h \
+ ../../gst-libs/gst/video/video-prelude.h \
+ ../../gst-libs/gst/video/video-format.h \
+ ../../gst-libs/gst/video/video-enumtypes.h \
+ ../../gst-libs/gst/video/video-tile.h \
+ ../../gst-libs/gst/video/video-chroma.h \
+ ../../gst-libs/gst/video/video-color.h \
+ ../../gst-libs/gst/video/video-dither.h \
+ ../../gst-libs/gst/video/video-info.h \
+ ../../gst-libs/gst/video/video-frame.h \
+ ../../gst-libs/gst/video/video-converter.h \
+ ../../gst-libs/gst/video/video-scaler.h \
+ ../../gst-libs/gst/video/video-resampler.h \
+ ../../gst-libs/gst/video/video-multiview.h \
+ ../../gst-libs/gst/video/colorbalancechannel.h \
+ ../../gst-libs/gst/video/colorbalance.h \
+ ../../gst-libs/gst/video/gstvideoaggregator.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/base/gstaggregator.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/base/base-prelude.h \
+ ../../gst-libs/gst/video/gstvideodecoder.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/base/gstadapter.h \
+ ../../gst-libs/gst/video/gstvideoutils.h \
+ ../../gst-libs/gst/video/gstvideoencoder.h \
+ ../../gst-libs/gst/video/gstvideofilter.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/base/gstbasetransform.h \
+ ../../gst-libs/gst/video/gstvideometa.h \
+ ../../gst-libs/gst/video/gstvideotimecode.h \
+ ../../gst-libs/gst/video/gstvideopool.h \
+ ../../gst-libs/gst/video/gstvideosink.h \
+ /home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/base/gstbasesink.h \
+ ../../gst-libs/gst/video/navigation.h \
+ ../../gst-libs/gst/video/video-blend.h \
+ ../../gst-libs/gst/video/video-event.h \
+ ../../gst-libs/gst/video/videodirection.h \
+ ../../gst-libs/gst/video/videoorientation.h \
+ ../../gst-libs/gst/video/video-overlay-composition.h \
+ ../../gst-libs/gst/video/videooverlay.h \
+ ../../gst-libs/gst/video/video-anc.h gstglvideomixer.h gstglmixer.h \
+ ../../gst-libs/gst/gl/gl.h ../../gst-libs/gst/gl/gstgl_fwd.h \
+ ../../gst-libs/gst/gl/gstglapi.h ../../gst-libs/gst/gl/gl-prelude.h \
+ ../../gst-libs/gst/gl/gstgl_enums.h ../../gst-libs/gst/gl/gl-enumtypes.h \
+ ../../gst-libs/gst/gl/gstglcontext.h ../../gst-libs/gst/gl/gstgldebug.h \
+ ../../gst-libs/gst/gl/gstgldisplay.h \
+ ../../gst-libs/gst/gl/gstglfeature.h ../../gst-libs/gst/gl/gstglformat.h \
+ ../../gst-libs/gst/gl/gstglutils.h ../../gst-libs/gst/gl/gstglwindow.h \
+ ../../gst-libs/gst/gl/gstglslstage.h ../../gst-libs/gst/gl/gstglsl.h \
+ ../../gst-libs/gst/gl/gstglshader.h \
+ ../../gst-libs/gst/gl/gstglshaderstrings.h \
+ ../../gst-libs/gst/gl/gstglcolorconvert.h \
+ ../../gst-libs/gst/gl/gstglupload.h \
+ ../../gst-libs/gst/gl/gstglbasememory.h \
+ ../../gst-libs/gst/gl/gstglbuffer.h ../../gst-libs/gst/gl/gstglmemory.h \
+ ../../gst-libs/gst/gl/gstglmemorypbo.h \
+ ../../gst-libs/gst/gl/gstglrenderbuffer.h \
+ ../../gst-libs/gst/gl/gstglbufferpool.h \
+ ../../gst-libs/gst/gl/gstglframebuffer.h \
+ ../../gst-libs/gst/gl/gstglbasefilter.h \
+ ../../gst-libs/gst/gl/gstglviewconvert.h \
+ ../../gst-libs/gst/gl/gstglfilter.h \
+ ../../gst-libs/gst/gl/gstglsyncmeta.h \
+ ../../gst-libs/gst/gl/gstgloverlaycompositor.h \
+ ../../gst-libs/gst/gl/gstglquery.h gstglbasemixer.h gstglmixerbin.h \
+ gstglutils.h
+
+/usr/include/stdc-predef.h:
+
+../../config.h:
+
+/usr/include/string.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/x86_64-linux-gnu/bits/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/string2.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/string3.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/controller/gstproxycontrolbinding.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gst.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/galloca.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gtypes.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/lib/glib-2.0/include/glibconfig.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gmacros.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/float.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gversionmacros.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/garray.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gasyncqueue.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gthread.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gatomic.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gerror.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gquark.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gutils.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gbacktrace.h:
+
+/usr/include/signal.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gbase64.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gbitlock.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gbookmarkfile.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gbytes.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gcharset.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gchecksum.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gconvert.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gdataset.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gdate.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gdatetime.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gtimezone.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gdir.h:
+
+/usr/include/dirent.h:
+
+/usr/include/x86_64-linux-gnu/bits/dirent.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/genviron.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gfileutils.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/ggettext.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/ghash.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/glist.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gmem.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gnode.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/ghmac.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gchecksum.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/ghook.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/ghostutils.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/giochannel.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gmain.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gpoll.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gslist.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gstring.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gunicode.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gkeyfile.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gmappedfile.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gmarkup.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gmessages.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/goption.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gpattern.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gprimes.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gqsort.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gqueue.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/grand.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gregex.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gscanner.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gsequence.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gshell.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gslice.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gspawn.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gstrfuncs.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gstringchunk.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gtestutils.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gthreadpool.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gtimer.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gtrashstack.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gtree.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gurifuncs.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gvarianttype.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gvariant.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/gversion.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib/glib-autocleanups.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/glib-compat.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstenumtypes.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/glib-object.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gbinding.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gobject.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gtype.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gvalue.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gparam.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gclosure.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gsignal.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gmarshal.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gboxed.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/glib-types.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/genums.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gparamspecs.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gsourceclosure.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gtypemodule.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gtypeplugin.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gvaluearray.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gvaluetypes.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/glib-2.0/gobject/gobject-autocleanups.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstconfig.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstversion.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstatomicqueue.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstbin.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstelement.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstobject.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstcontrolbinding.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstcontrolsource.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstclock.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstpad.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstbuffer.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstminiobject.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstallocator.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstmemory.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstcaps.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gststructure.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstdatetime.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstcapsfeatures.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstmeta.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstbufferlist.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstpadtemplate.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstevent.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstformat.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstiterator.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsttaglist.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstsample.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstsegment.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstmessage.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstquery.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsttoc.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstcontext.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstdevice.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gststreams.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gststreamcollection.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsttask.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsttaskpool.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstbus.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstelementfactory.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstplugin.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstmacros.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstpluginfeature.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsturi.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstminiobject.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstbufferpool.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstchildproxy.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstdebugutils.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstdevicemonitor.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstdeviceprovider.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstdeviceproviderfactory.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstdynamictypefactory.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstelementmetadata.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsterror.h:
+
+/usr/include/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstghostpad.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstinfo.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstparamspecs.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstvalue.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstpipeline.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstpoll.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstpreset.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstprotection.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstregistry.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstpromise.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstsystemclock.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsttagsetter.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsttocsetter.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsttracer.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsttracerfactory.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsttracerrecord.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsttypefind.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gsttypefindfactory.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstutils.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstparse.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/gstcompat.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/controller/controller-prelude.h:
+
+../../gst-libs/gst/gl/gstglfuncs.h:
+
+../../gst-libs/gst/gl/gstglconfig.h:
+
+/usr/include/GLES3/gl3.h:
+
+/usr/include/GLES3/gl3platform.h:
+
+/usr/include/KHR/khrplatform.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/GLES3/gl3ext.h:
+
+/usr/include/GLES2/gl2ext.h:
+
+/usr/include/GL/gl.h:
+
+/usr/include/GL/glext.h:
+
+/usr/include/inttypes.h:
+
+../../gst-libs/gst/gl/glprototypes/gstgl_compat.h:
+
+../../gst-libs/gst/gl/glprototypes/all_functions.h:
+
+../../gst-libs/gst/gl/glprototypes/base.h:
+
+../../gst-libs/gst/gl/glprototypes/blending.h:
+
+../../gst-libs/gst/gl/glprototypes/eglimage.h:
+
+../../gst-libs/gst/gl/glprototypes/fbo.h:
+
+../../gst-libs/gst/gl/glprototypes/fixedfunction.h:
+
+../../gst-libs/gst/gl/glprototypes/gles.h:
+
+../../gst-libs/gst/gl/glprototypes/opengl.h:
+
+../../gst-libs/gst/gl/glprototypes/shaders.h:
+
+../../gst-libs/gst/gl/glprototypes/debug.h:
+
+../../gst-libs/gst/gl/glprototypes/vao.h:
+
+../../gst-libs/gst/gl/glprototypes/sync.h:
+
+../../gst-libs/gst/gl/glprototypes/buffers.h:
+
+../../gst-libs/gst/gl/glprototypes/query.h:
+
+../../gst-libs/gst/video/gstvideoaffinetransformationmeta.h:
+
+../../gst-libs/gst/video/video.h:
+
+../../gst-libs/gst/video/video-prelude.h:
+
+../../gst-libs/gst/video/video-format.h:
+
+../../gst-libs/gst/video/video-enumtypes.h:
+
+../../gst-libs/gst/video/video-tile.h:
+
+../../gst-libs/gst/video/video-chroma.h:
+
+../../gst-libs/gst/video/video-color.h:
+
+../../gst-libs/gst/video/video-dither.h:
+
+../../gst-libs/gst/video/video-info.h:
+
+../../gst-libs/gst/video/video-frame.h:
+
+../../gst-libs/gst/video/video-converter.h:
+
+../../gst-libs/gst/video/video-scaler.h:
+
+../../gst-libs/gst/video/video-resampler.h:
+
+../../gst-libs/gst/video/video-multiview.h:
+
+../../gst-libs/gst/video/colorbalancechannel.h:
+
+../../gst-libs/gst/video/colorbalance.h:
+
+../../gst-libs/gst/video/gstvideoaggregator.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/base/gstaggregator.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/base/base-prelude.h:
+
+../../gst-libs/gst/video/gstvideodecoder.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/base/gstadapter.h:
+
+../../gst-libs/gst/video/gstvideoutils.h:
+
+../../gst-libs/gst/video/gstvideoencoder.h:
+
+../../gst-libs/gst/video/gstvideofilter.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/base/gstbasetransform.h:
+
+../../gst-libs/gst/video/gstvideometa.h:
+
+../../gst-libs/gst/video/gstvideotimecode.h:
+
+../../gst-libs/gst/video/gstvideopool.h:
+
+../../gst-libs/gst/video/gstvideosink.h:
+
+/home/webrtc/Downloads/gstreamer-1.15/build/include/gstreamer-1.0/gst/base/gstbasesink.h:
+
+../../gst-libs/gst/video/navigation.h:
+
+../../gst-libs/gst/video/video-blend.h:
+
+../../gst-libs/gst/video/video-event.h:
+
+../../gst-libs/gst/video/videodirection.h:
+
+../../gst-libs/gst/video/videoorientation.h:
+
+../../gst-libs/gst/video/video-overlay-composition.h:
+
+../../gst-libs/gst/video/videooverlay.h:
+
+../../gst-libs/gst/video/video-anc.h:
+
+gstglvideomixer.h:
+
+gstglmixer.h:
+
+../../gst-libs/gst/gl/gl.h:
+
+../../gst-libs/gst/gl/gstgl_fwd.h:
+
+../../gst-libs/gst/gl/gstglapi.h:
+
+../../gst-libs/gst/gl/gl-prelude.h:
+
+../../gst-libs/gst/gl/gstgl_enums.h:
+
+../../gst-libs/gst/gl/gl-enumtypes.h:
+
+../../gst-libs/gst/gl/gstglcontext.h:
+
+../../gst-libs/gst/gl/gstgldebug.h:
+
+../../gst-libs/gst/gl/gstgldisplay.h:
+
+../../gst-libs/gst/gl/gstglfeature.h:
+
+../../gst-libs/gst/gl/gstglformat.h:
+
+../../gst-libs/gst/gl/gstglutils.h:
+
+../../gst-libs/gst/gl/gstglwindow.h:
+
+../../gst-libs/gst/gl/gstglslstage.h:
+
+../../gst-libs/gst/gl/gstglsl.h:
+
+../../gst-libs/gst/gl/gstglshader.h:
+
+../../gst-libs/gst/gl/gstglshaderstrings.h:
+
+../../gst-libs/gst/gl/gstglcolorconvert.h:
+
+../../gst-libs/gst/gl/gstglupload.h:
+
+../../gst-libs/gst/gl/gstglbasememory.h:
+
+../../gst-libs/gst/gl/gstglbuffer.h:
+
+../../gst-libs/gst/gl/gstglmemory.h:
+
+../../gst-libs/gst/gl/gstglmemorypbo.h:
+
+../../gst-libs/gst/gl/gstglrenderbuffer.h:
+
+../../gst-libs/gst/gl/gstglbufferpool.h:
+
+../../gst-libs/gst/gl/gstglframebuffer.h:
+
+../../gst-libs/gst/gl/gstglbasefilter.h:
+
+../../gst-libs/gst/gl/gstglviewconvert.h:
+
+../../gst-libs/gst/gl/gstglfilter.h:
+
+../../gst-libs/gst/gl/gstglsyncmeta.h:
+
+../../gst-libs/gst/gl/gstgloverlaycompositor.h:
+
+../../gst-libs/gst/gl/gstglquery.h:
+
+gstglbasemixer.h:
+
+gstglmixerbin.h:
+
+gstglutils.h:

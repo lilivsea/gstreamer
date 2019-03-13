@@ -1,0 +1,15 @@
+# the standard variables don't make sense for an uninstalled copy
+prefix=
+exec_prefix=
+libdir=/home/webrtc/Downloads/gstreamer-1.15/gstreamer-1.15.2/libs/gst/check/.libs
+includedir=
+girdir=/home/webrtc/Downloads/gstreamer-1.15/gstreamer-1.15.2/libs/gst/check
+typelibdir=/home/webrtc/Downloads/gstreamer-1.15/gstreamer-1.15.2/libs/gst/check
+
+Name: GStreamer check unit testing, uninstalled
+Description: Unit testing helper library for GStreamer modules, Not Installed
+Requires: gstreamer-1.0 = 1.15.2
+Version: 1.15.2
+
+Libs: -L${libdir} -lgstcheck-1.0 -lm
+Cflags: -I/home/webrtc/Downloads/gstreamer-1.15/gstreamer-1.15.2/libs -I/home/webrtc/Downloads/gstreamer-1.15/gstreamer-1.15.2/libs
